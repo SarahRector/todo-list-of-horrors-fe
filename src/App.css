@@ -19,13 +19,61 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url("movie monsters color.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: 20px solid rgb(137, 4, 219);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(40, 44, 52, 0.7);
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(6, 194, 43);
+  margin: 10px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar {
+  display: inline;
+  margin: 10px;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid white 3px;
+  max-width: 300px;
+}
+
+label {
+  display: inline-block;
+  margin: 5px;
+}
+
+.task-complete {
+  text-decoration: line-through;
 }
 
 @keyframes App-logo-spin {

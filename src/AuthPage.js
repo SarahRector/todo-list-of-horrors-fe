@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { signUp, signIn } from './todo-api.js';
-import { Link } from 'react-router-dom';
+
 
 export default class AuthPage extends Component {
     state = {
@@ -36,8 +36,7 @@ export default class AuthPage extends Component {
 
     render() {
         return (
-            <div>
-                <Link to='/'>Home</Link>
+            <div className="authForm">
                 <form onSubmit={this.handleSignIn}>
                     Sign In Here!
                     <label>

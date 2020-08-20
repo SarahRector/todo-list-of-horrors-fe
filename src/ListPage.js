@@ -71,7 +71,7 @@ export default class ListPage extends Component {
                             <button onClick={() => this.handleCompleted(todo.id, todo)}>Completed!</button>
                             </div>
                         } else {
-                            return <div className="task complete" key={`${todo.id}`}>
+                            return <div className="task-complete" key={`${todo.id}`}>
                                 <p>Task: {todo.todo}</p>
                             </div>
                         }
