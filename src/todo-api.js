@@ -1,6 +1,6 @@
 import request from 'superagent';
 
-const URL = process.env.REACT_APP_API_URL || "https://fathomless-eyrie-12706.herokuapp.com/";
+const URL = process.env.REACT_APP_API_URL || "https://fathomless-eyrie-12706.herokuapp.com";
 
 export function signUp(userData) {
     try {
